@@ -7,19 +7,19 @@
 ## Instructions for usage:
 
 # First create a matrix mat
-#  mat <- matrix(rnorm(25), nrow = 5, ncol = 5)
+#  > mat <- matrix(rnorm(25), nrow = 5, ncol = 5)
 
 # Create our special matrix ('smat')
-#  smat <- makeCacheMatrix(mat)                 
+#  > smat <- makeCacheMatrix(mat)                 
 
 # Return the special matrix
-# > smat$get()
+#  > smat$get()
 
 # Returns the inverse of the special matrix
-# > cacheSolve(smat)                            
+#  > cacheSolve(smat)                            
 
 # Call again to return the cached special inversed matrix
-# > cacheSolve(smat)                          
+#  > cacheSolve(smat)                          
 
 ##########################################################################
 
@@ -88,3 +88,8 @@ cacheSolve <- function(mat, ...) {
   # Returning the matrix
   i
 }
+
+########################## END #############################
+
+## Acknowledgement everyone in discussion forums. 
+#  Thank you all.
